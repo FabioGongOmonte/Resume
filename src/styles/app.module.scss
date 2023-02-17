@@ -1,8 +1,6 @@
 @import './contants.scss';
-
-.container {
+.container{
     overflow-x: clip;
     position: relative;
     color: $primary;
-    height: 600vh;
 }
