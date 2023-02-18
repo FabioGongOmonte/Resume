@@ -1,21 +1,27 @@
 import { HiOutlineDesktopComputer } from "react-icons/hi";
-import { CiMobile1 } from "react-icons/ci";
-import { MdWorkspacesOutline } from "react-icons/md";
+import { SiCplusplus, SiProbot } from "react-icons/si";
+import { AiOutlineDatabase, AiOutlineFileText } from "react-icons/ai";
 export const projectExperience = [
   {
     name: "Introduction to C++",
-    icon: HiOutlineDesktopComputer,
+    icon: SiCplusplus,
     bg: "#286F6C",
   },
   {
     name: "Artificial Intelligence",
-    icon: CiMobile1 ,
+    icon: SiProbot ,
     bg: "#EEC048",
   },
   {
     name: "Database Systems",
-    icon: MdWorkspacesOutline,
+    icon: AiOutlineDatabase,
     bg: "#F26440",
+  },
+
+  {
+    name: "From Natural Text to Language Processing",
+    icon: AiOutlineFileText,
+    bg: "#6495ED",
   },
 ];
 
@@ -26,25 +32,18 @@ export const Studies = [
 
 export const workExp = [
   {
-    place: "Self-Employed, Brisbane",
-    tenure: "Aug 2014 - Sep 2016",
-    role: "Visual Designer",
+    place: "Sûreté du Québec - Grand Quartier Général",
+    tenure: "May 2021 - Sep 2021",
+    role: "Inventory Attendant",
     detail:
-      "A visual desginer dsesign for a variety of platoforms, may include internet and internet sites, games, movies, kioasks and wearbies. In short, they create the concepts",
+      "I was mostly working in the Sûreté du Québec warehouse and I was in charge of looking through the inventory software to find items to fulfill orders. Throughout the day, I had to classify and verify the serial numbers of certain products and make sure that we were shipping the correct items to their corresponding warehouses.",
   },
   {
-    place: "New Man Services",
-    tenure: "Aug 2014 - Sep 2016",
-    role: "UI/UX Designer",
+    place: "Comm. des normes, équité, santé (CNESST)",
+    tenure: "May 2022 - Present",
+    role: "Statistics and Data Analysis Specialist",
     detail:
-      "A visual desginer dsesign for a variety of platoforms, may include internet and internet sites, games, movies, kioasks and wearbies. In short, they create the concepts",
-  },
-  {
-    place: "Global Solution",
-    tenure: "Aug 2014 - Sep 2016",
-    role: "Sr. Product Designer",
-    detail:
-      "A visual desginer dsesign for a variety of platoforms, may include internet and internet sites, games, movies, kioasks and wearbies. In short, they create the concepts",
+      "I had to provide cutting-edge expertise in data analysis in order to interpret the results observed. I provided the authorities with adequate information allowing them to make decisions by using Excel and BusinessObjects to establish clear trends. Some of my other tasks included creating monthly reports that classified data from 4000+ companies and established a priority level between them. One of my mandates was to completely refactor VBA code from 2011 to make it more relevant to modern users.",
   },
 ];
 

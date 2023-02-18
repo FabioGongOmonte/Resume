@@ -11,7 +11,7 @@ const Work = () => {
     whileInView="show"
     viewport={{ once: false, amount: 0.25 }}
     className={`paddings ${css.wrapper}`}>
-    <a className="anchor" id="work"></a>
+    <a className="anchor" id="experience"></a>
 
       <div className={`innerWidth flexCenter ${css.container}`}>
         {/* heading */}
@@ -37,7 +37,6 @@ const Work = () => {
           <motion.div variants={zoomIn(1, 1)} className={css.progressbar}>
             <motion.div variants={fadeIn("down", "tween", 2, 1.5)} className={css.line}></motion.div>
             <div><div className={css.circle} style={{background: "#286F6C"}}></div></div>
-            <div><div className={css.circle} style={{background: "#F2704E"}}></div></div>
             <div><div className={css.circle} style={{background: "#EEC048"}}></div></div>
           </motion.div>
 
