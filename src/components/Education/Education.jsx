@@ -1,5 +1,5 @@
 import React from 'react'
-import { projectExperience, WhatDoIHelp } from '../../utils/data'
+import { projectExperience, Studies } from '../../utils/data'
 import css from './Education.module.scss'
 import {motion} from 'framer-motion'
 import {fadeIn, staggerContainer, textVariant} from '../../utils/motion.js'
@@ -25,7 +25,6 @@ const Education = () => {
                             </div>
                             <div>
                                 <span>{exp.name}</span>
-                                <span className='secondaryText'>{exp.projects} Projects</span>
                             </div>
                         </motion.div>
                     })
@@ -38,18 +37,18 @@ const Education = () => {
             variants={textVariant(0.5)}
             className={css.rightSide}>
 
-                <span className='primaryText'>What do I help? </span>
-                {WhatDoIHelp.map((paragraph, i)=> <span className='secondaryText' key={i}>{paragraph}</span>)}
+                <span className='primaryText'>Education </span>
+                {Studies.map((paragraph, i)=> <span className='secondaryText' key={i}>{paragraph}</span>)}
 
 
                 <div className={`flexCenter ${css.stats}`}>
                     <div className={`flexCenter ${css.stat}`}>
-                        <span className='primaryText'>285+</span>
-                        <span className='secondaryText'>Project Completed</span>
+                        <span className='primaryText'>11</span>
+                        <span className='secondaryText'>COMP Courses Taken</span>
                     </div>
                     <div className={`flexCenter ${css.stat}`}>
-                        <span className='primaryText'>190+</span>
-                        <span className='secondaryText'>Happy Clients</span>
+                        <span className='primaryText'>91</span>
+                        <span className='secondaryText'>Credits Completed</span>
                     </div>
                 </div>
             </motion.div>
