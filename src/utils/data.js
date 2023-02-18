@@ -27,7 +27,7 @@ export const projectExperience = [
 
 export const Studies = [
   "Most of the classes I've taken are Comp.Sci. or Mathematics related, however I'm also planning on completing a Korean Language Minor, as I'm also fond of language learning",
-  "On the right are some classes that I've taken that touched on areas of CS that I'm truly interested in."
+  "On the left are some classes that I've taken that touched on areas of CS that I'm truly interested in."
 ];
 
 export const workExp = [
